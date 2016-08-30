@@ -1,0 +1,5 @@
+cybozu:
+  scheme: https
+  domain: <%= ENV["CYBOZU_DOMAIN"] %>
+  admin_account: <%= ENV['CYBOZU_ADMIN_ACCOUNT'] %>
+  admin_password: <%= ENV['CYBOZU_ADMIN_PASSWORD'] %>
